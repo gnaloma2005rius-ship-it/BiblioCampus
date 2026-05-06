@@ -21,5 +21,6 @@ def rendre_livre(donnees, titre):
                 return f"✅ Livre '{titre}' rendu avec succès."
             else:
                 return f"⚠️ Ce livre n'était pas emprunté."
+            "Grrrr paw"
     return f"❌ Livre '{titre}' introuvable."
 
