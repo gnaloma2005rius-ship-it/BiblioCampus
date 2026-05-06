@@ -2,7 +2,7 @@ import json
 import os
 
 DATA_FILE = "data/library.json"
- # Module de stockage — version A
+ # Module de stockage — version C
 def charger_donnees():
     if not os.path.exists(DATA_FILE):
         return {"livres": [], "emprunts": []}
